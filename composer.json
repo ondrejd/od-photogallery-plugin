@@ -1,0 +1,25 @@
+{
+	"name": "ondrejd/od-photogallery-plugin",
+	"description": "WordPress plug-in for creating image galleries and publishing them with your posts.",
+	"homepage": "https://github.com/ondrejd/od-photogallery-plugin",
+	"type": "plugin",
+	"license": "MPL-2.0",
+	"keywords": ["wordpress","plugin"],
+	"minimum-stability": "dev",
+	"authors": [
+		{
+			"name": "Ondřej Doněk",
+			"email": "ondrejd@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"classmap": [
+			"./"
+		]
+	},
+	"require": {
+		"php": ">=5.3.1",
+		"ondrejd/odwp": "dev-master"
+	}
+}
